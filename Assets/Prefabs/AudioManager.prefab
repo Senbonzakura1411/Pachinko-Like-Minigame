@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9061379820150232451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9061379820150232453}
+  - component: {fileID: 9061379820150232450}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9061379820150232453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9061379820150232451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.39272073, y: -0.7463364, z: -0.052620977}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9061379820150232450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9061379820150232451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0796b2c345af7c64b88b76fb4da2ca04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 4bb06673791c08f4faf4550cc77da58c, type: 3}
+    volume: 0.25
+    pitch: 1
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: PlaneSound
+    clip: {fileID: 8300000, guid: fa77eee70674ecb4b8d72158d6e292cd, type: 3}
+    volume: 0.6
+    pitch: 2
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: BombDrop
+    clip: {fileID: 8300000, guid: 5a100ea5a5702534796390542d1fb457, type: 3}
+    volume: 0.5
+    pitch: 0.75
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  audioMixer: {fileID: 24300002, guid: 35ad587e0b8efa04ca800c8cec0a727a, type: 2}
